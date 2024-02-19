@@ -6,10 +6,10 @@ export default function SpaceProjectNav() {
   const [activeItem, setActiveItem] = useState(""); // State to keep track of active item
 
   const Heads = [
-    { number: "00", head: "Home", link: "/" },
-    { number: "01", head: "Destination", link: "/Destination" },
-    { number: "02", head: "Crew", link: "/Crew" },
-    { number: "03", head: "Technology", link: "/Technology" },
+    { number: "00", head: "Home", link: "https://muhamadt4.github.io/Space-tourism-multi-page-website/" },
+    { number: "01", head: "Destination", link: "https://muhamadt4.github.io/Space-tourism-multi-page-website/Destination" },
+    { number: "02", head: "Crew", link: "https://muhamadt4.github.io/Space-tourism-multi-page-website/Crew" },
+    { number: "03", head: "Technology", link: "https://muhamadt4.github.io/Space-tourism-multi-page-website/Technology" },
   ];
 
   const handleItemClick = (link) => {
@@ -29,7 +29,7 @@ export default function SpaceProjectNav() {
               <Link key={i} to={`${item.link}`}>
                 <li
                   className={`navcont cursor-pointer leading-[78px] ${
-                    activeItem === item.link ? "active" : "" 
+                    activeItem === item.link ? "active" : ""
                   }`}
                   onClick={() => handleItemClick(item.link)}
                 >
