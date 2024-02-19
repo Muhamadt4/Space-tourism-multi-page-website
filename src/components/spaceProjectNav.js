@@ -23,7 +23,7 @@ export default function SpaceProjectNav() {
           <img className="lg:pl-20 pl-10" src={logo} alt="logo" />
         </Link>
         <div className="absolute right-[45%] w-[40%] z-20 lg:border-b-2 border-[#3e404c]"></div>
-        <div className="relative flex items-center justify-center lg:w-[50%] bg-[#131522] lg:bg-transparent lg:backdrop-blur-3xl h-20">
+        <div className="relative flex items-center justify-center lg:w-[50%] bg-[#13141f] lg:bg-transparent lg:backdrop-blur-3xl h-20">
           <ul className="sm:flex hidden gap-x-[4lvw] text-white pl-10 pr-10  ">
             {Heads.map((item, i) => (
               <Link key={i} to={`${item.link}`}>
