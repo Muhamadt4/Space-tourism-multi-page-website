@@ -7,21 +7,9 @@ export default function SpaceProjectNav() {
 
   const Heads = [
     { number: "00", head: "Home", link: "/" },
-    {
-      number: "01",
-      head: "Destination",
-      link: "https://muhamadt4.github.io/Space-tourism-multi-page-website/Destination",
-    },
-    {
-      number: "02",
-      head: "Crew",
-      link: "https://muhamadt4.github.io/Space-tourism-multi-page-website/Crew",
-    },
-    {
-      number: "03",
-      head: "Technology",
-      link: "https://muhamadt4.github.io/Space-tourism-multi-page-website/Technology",
-    },
+    { number: "01", head: "Destination", link: "/Destination" },
+    { number: "02", head: "Crew", link: "/Crew" },
+    { number: "03", head: "Technology", link: "/Technology" },
   ];
 
   const handleItemClick = (link) => {
