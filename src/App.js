@@ -12,7 +12,7 @@ export default function App() {
       <SpaceProjectNav></SpaceProjectNav>
       <Routes>
         <Route
-          path="https://muhamadt4.github.io/Space-tourism-multi-page-website/"
+          path="/"
           element={<SpaceMain />}
         ></Route>
         <Route
