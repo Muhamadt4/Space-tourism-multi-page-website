@@ -4,7 +4,6 @@ export default function SpaceMain() {
   return (
     <div className="overflow-hidden ">
       <div className="bgmain pt-20">
-      
         <div className="text-[#d6daf9] lg:pt-[250px] pt-[90px] lg:pl-[180px] lg:relative ">
           <div className="lg:block lg:float-left flex flex-col items-center justify-center lg:text-left text-center">
             <h2 className="lg:text-[1lvw] text-[2.5lvw]">
