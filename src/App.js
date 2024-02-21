@@ -12,10 +12,10 @@ export default function App() {
     <div className="speacialfont">
     <SpaceProjectNav></SpaceProjectNav>
      <Routes>
-     <Route path="/" element={<SpaceMain/>}></Route>
-     <Route path="/Destination" element={<SpaceDestin/>}></Route>
-     <Route path="/Crew" element={<SpaceCrew/>}></Route>
-     <Route path="/Technology" element={<SpaceTech/>}></Route>
+     <Route path="/Space-tourism-multi-page-website" element={<SpaceMain/>}></Route>
+     <Route path="/Space-tourism-multi-page-website/Destination" element={<SpaceDestin/>}></Route>
+     <Route path="/Space-tourism-multi-page-website/Crew" element={<SpaceCrew/>}></Route>
+     <Route path="/Space-tourism-multi-page-website/Technology" element={<SpaceTech/>}></Route>
      </Routes>
     </div>
   );

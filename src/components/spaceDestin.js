@@ -13,7 +13,7 @@ export default function SpaceDestin() {
     <div className="bgmain2 overflow-hidden pt-20">
       <div>
         <div>
-          <h1 className="text-3xl text-white  pt-10 pl-10  ">
+          <h1 className="text-3xl text-white  pt-10 lg:pl-80 flex justify-center lg:block  ">
             <span className="pr-3 text-[#4c5059]">01</span>PICK YOUR DESTINATION
           </h1>
         </div>
